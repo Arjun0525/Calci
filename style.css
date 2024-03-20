@@ -1,0 +1,50 @@
+body{
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/1440952739/display_1500/stock-vector-vector-illustration-of-green-chalkboard-with-math-signs-1440952739.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    height: 600px;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin: auto;
+    margin-top: 200px;
+}
+input[type="number"]{
+    height: 20px;
+    width: 380px;
+    margin: 20px 0 20px 5px;
+    
+}
+.operation{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+input[type="button"]{
+    margin-left: 5px;
+    height: 50px;
+    width: 180px;
+}
+input[type="text"]{
+    margin: 20px 0 20px 5px;
+    height: 40px;
+    width: 380px;
+}
+.r{
+    height: 50px;
+    width: 180px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+h1{
+    padding: 10px;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label{
+    margin-left: 5px;
+}
